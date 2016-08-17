@@ -13,8 +13,8 @@ O objetivo é passar de uma maneira simples como automatizar os verbos HTTP para
 # Execução
 
 ```ruby
-- On path cucumber, execute this command for the start all tests: cucumber
-- For execute specific feature, execute this command on path cucumber: cucumber --require features features/specifications/xxx.feature
+- Na pasta cucumber, executar o seguinte comando para execução de todos os testes: cucumber
+- Para executar um teste específico, executar o seguinte comando na pasta cucumber: cucumber --require features features/specifications/xxx.feature
 ```
 
 

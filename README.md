@@ -10,7 +10,7 @@ O objetivo é passar de uma maneira simples como automatizar os verbos HTTP para
 - Execute bundle install on path cucumber.
 ```
 
-# Execute test
+# Execução
 
 ```ruby
 - On path cucumber, execute this command for the start all tests: cucumber

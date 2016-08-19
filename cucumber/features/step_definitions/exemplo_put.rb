@@ -11,7 +11,7 @@ Quando(/^eu passar o id (\d+) alterando algum campo do comentário com o verbo P
 
   puts @altera_comentario_body
 
-  @alterar_comentario = HTTParty.put("http://jsonplaceholder.typicode.com/posts/10",
+  @alterar_comentario = HTTParty.put("http://jsonplaceholder.typicode.com/comments/100",
     :body => @altera_comentario_body,
     :headers => {
       "Content-Type" => 'application/json'}
